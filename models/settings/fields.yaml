@@ -1,0 +1,15 @@
+fields:
+    site_id:
+        span: left
+        label: Site Id
+        type: number
+        commentAbove: The site ID for this website (can be found at https://clicky.com/user/)
+        required: true
+    tracking_type:
+        span: left
+        label: Tracking Code Type
+        type: dropdown
+        options:
+            async: Asynchronous Tracking Code
+            sync: Synchronous Tracking Code
+            nonjs: Non-JavaScript Tracking Code
