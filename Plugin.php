@@ -8,7 +8,7 @@ class Plugin extends \System\Classes\PluginBase
         return [
             'name'        => 'Clicky Analytics',
             'description' => 'Provides a Clicky tracking script. Inspired by RainLab\GoogleAnalytics.',
-            'author'      => 'RobBrazier',
+            'author'      => 'Rob Brazier',
             'icon'        => 'icon-bar-chart-o'
         ];
     }

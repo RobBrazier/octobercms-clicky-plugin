@@ -1,7 +1,7 @@
 fields:
     site_id:
         span: left
-        label: Site Id
+        label: Site ID
         type: number
         commentAbove: The site ID for this website (can be found at https://clicky.com/user/)
         required: true
